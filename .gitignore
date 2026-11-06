@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Environment variables
+.env*
+!.env.example
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local data & test files — kept on disk but not committed
+data/
+test/
+
+# Logs
+*.log
+logs/
+
+# Data directories (uploaded/generated files)
+data/input_files/
+data/output_files/
+data/generated_configs/
+data/executed_outputs/
+
+# SSL / certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.cer
+
+# AWS credentials / configs
+.aws/
+aws_credentials.json
+get_aws_credentials.py
+refresh_creds.py
+run_app_scheduler.ps1
+API_REFERENCE.txt
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+temp/
+test/
+
+# Local planning docs and working notes (not tracked)
+documents_plan/
+CHANGES_MANIFEST.md
